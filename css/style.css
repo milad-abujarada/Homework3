@@ -1,8 +1,6 @@
 header {
 	padding: 10px;
 	text-align: center;
-	
-	color: #775a4f;
 	margin-bottom: 10px;
 }
 
@@ -14,6 +12,11 @@ body {
 	background-color: #f9f6e6;
 	padding-right: 10%;
 	padding-left: 10%;
+	color: #383869;
+	line-height: 250%;
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 500;
 }
 
 .fixedNav {
@@ -21,7 +24,7 @@ display: inline-block;
 padding:40px;
 font-family: 'Vollkorn SC', serif;
 font-size: 20px;
-
+color: #775a4f;
 }
 
 #name {
@@ -33,21 +36,33 @@ font-size: 20px;
 
 .aboutMe {
 	float: left;
-	font-family: 'Vollkorn SC', serif;
 	font-size: 16px;
 	padding: 20px;
-	color: #383869;
 	display: inline-block;
 	width: 75%
 }
 
 .myImage {
-	float: right;
-	border-radius: 50%;
-	padding: 10;
-	height: 200px;
+    float: right;
+    border-radius: 50%;
+    height: 210px;
+    margin: 100px 0;
 }
 
 .bio {
 	margin: 25px auto;
+}
+
+.experienceHeader {
+	font-family: 'Vollkorn SC', serif;
+	padding: 20px;
+	font-size: 26px;
+	color: #775a4f;
+}
+
+.relevantExperienceHeader {
+	font-family: 'Vollkorn SC', serif;
+	padding: 22px;
+	font-size: 20px;
+	color: #775a4f;
 }
