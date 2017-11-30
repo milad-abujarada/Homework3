@@ -1,0 +1,53 @@
+header {
+	padding: 10px;
+	text-align: center;
+	
+	color: #775a4f;
+	margin-bottom: 10px;
+}
+
+nav {
+	margin: 20px;
+}
+
+body {
+	background-color: #f9f6e6;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.fixedNav {
+display: inline-block;
+padding:40px;
+font-family: 'Vollkorn SC', serif;
+font-size: 20px;
+
+}
+
+#name {
+	padding: 3px;
+	font-family: 'Vollkorn SC', serif;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.aboutMe {
+	float: left;
+	font-family: 'Vollkorn SC', serif;
+	font-size: 16px;
+	padding: 20px;
+	color: #383869;
+	display: inline-block;
+	width: 75%
+}
+
+.myImage {
+	float: right;
+	border-radius: 50%;
+	padding: 10;
+	height: 200px;
+}
+
+.bio {
+	margin: 25px auto;
+}
